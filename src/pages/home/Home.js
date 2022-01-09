@@ -7,8 +7,8 @@ import homeSvg from "../../assets/home.svg";
 import RecipieCardComp from "./RecipieCardComp";
 
 const mealTypes = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
-const API_ID = "7b353b63";
-const API_KEY = "8b57847da027793e23f572648cf848ba";
+const API_ID = {your_id};
+const API_KEY = {your_key};
 
 const Home = () => {
   const [query, setQuery] = useState("");
